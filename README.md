@@ -3,11 +3,13 @@
 
    Objetivo general
     
-    *
+    * Comprender y analizar conceptos de circuitos y elementos eléctricos en serie o paralelo, conceptos basados  fundamentalmente en la  ley de Ohm, ley de voltajes y corrientes de Kirchhoff, mediante la elaboración de las actividades y problemas planteados en los capítulos cinco y seis del libro “Principios De Circuitos Eléctricos” de Thomas L. Floyd, para de esta manera, adquirir la capacidad de encontrar por cuenta propia los datos que se presentan en las mallas, ramas y nodos de un sistema eléctrico favoreciendo positivamente a nuestra formación estudiantil y profesional.
 
    Objetivos específicos
    
-    * 
+    * Comprender y analizar conceptos de circuitos y elementos eléctricos en serie o paralelo, conceptos basados  fundamentalmente en la  ley de Ohm, ley de voltajes y corrientes de Kirchhoff, mediante la elaboración de las actividades y problemas planteados en los capítulos cinco y seis del libro “Principios De Circuitos Eléctricos” de Thomas L. Floyd, para de esta manera, adquirir la capacidad de encontrar por cuenta propia los datos que se presentan en las mallas, ramas y nodos de un sistema eléctrico favoreciendo positivamente a nuestra formación estudiantil y profesional.
+    * Aplicar la ley de voltajes de Kirchhoff en el proceso denotado como divisor de voltajes, estableceremos su utilidad y como emplearlo dentro de un circuito mixto, se utilizará simuladores virtuales que permitan su corroboración o en su defecto permita la localización de fallas relacionadas con la tensión.
+    * Aplicar la ley de corrientes de Kirchhoff en el proceso denotado como divisor de corrientes, estableceremos su utilidad y como emplearlo dentro de un circuito mixto, se utilizará simuladores virtuales que permitan su corroboración o en su defecto permita la localización de fallas relacionadas con el amperaje.
 
 2. MARCO TEORICO
  ![](https://github.com/jlcastro5/Tarea3/blob/07df34d831f23115081b33b80e8b982d499112c8/M.jpeg)
@@ -635,11 +637,15 @@
    
 4. VIDEO
 
-https://www.youtube.com/watch?v=CW7fgWOWFGs
+  https://www.youtube.com/watch?v=CW7fgWOWFGs
 
 5. CONCLUSIONES
 
- * 
+ * A partir de la resolución de ejercicios se pudo entender que las resistencias en serie se suman algebraicamente, si están en paralelo, estas mediante la ley de Kirchhoff se llega a concluir que el inverso de la resistencia equivalente es igual a la suma de los inversos de todas las resistencias.
+ * Las fuentes de voltajes en serie se suman algebraicamente, pero debe considerarse los polos positivos y negativos, el resultado varía el voltaje. 
+ * las fuentes de voltaje conectadas en paralelo tienen la cualidad de no variar el voltaje, pero su principal característica es la variación de la corriente.
+ * El divisor de voltaje permite con sólo dos resistencias en serie y un voltaje de entrada, obtener un voltaje de salida equivalente a una fracción del de entrada.
+ * Un divisor de corriente permite fragmentar la corriente eléctrica de una fuente entre las resistencias conectadas en paralelo
 
 6. BIBLIOGRAFÍA 
  

@@ -424,41 +424,145 @@
    
        1. Muestre cómo conectar los resistores de la figura 6-65(a) en paralelo entre las terminales de una batería
 
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/Captura.PNG)
+
        *3. Identifique los grupos de resistores que están en paralelo en la tarjeta de circuito impreso de doble cara
        mostrada en la figura 6-66
+      
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-66.PNG)
+      
+      *Figura 6-66*
+      
+        R1, R2, R5, R9, R10, y R12 están en paralelo.
+        R4, R6, R7, y R8 están en paralelo.
+        R3 y R11 están en paralelo.
        
    **SECCIÓN 6–2 Voltaje en un circuito en paralelo**
    
        5. El voltaje de fuente en la figura 6-67 es de 100 V. ¿Cuánto voltaje lee cada uno de los medidores?
+       
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-67.PNG)
+      
+       
 
        7. ¿Cuál es el voltaje entre los extremos de cada resistor incluido en la figura 6-68 para cada posición del
        interruptor?
        
-       *13. La resistencia total de un circuito en paralelo es de 25 Ω. ¿Cuál es la corriente a través de un resistor
-       de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA ?
-       
-       
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-68.PNG)
+      
+       Interruptor en posición A: 
+       R1= 15V
+       R4=15V
+       R2= 0V
+       R3=0V
+       Interruptor en posición B:
+       R1= 15V
+       R3=15V
+       R2= 0V
+       R4=0V
+       Interruptor en posición C:
+       R1= 15V
+       R2=15V
+       R3= 0V
+       R4=0V
     
    **SECCIÓN 6–3 Ley de las corrientes de Kirchhoff**
    
        9. Se leen las siguientes corrientes en la misma dirección en un circuito de tres ramas en paralelo: 250 mA,
        300 mA y 800 mA. ¿Cuál es el valor de la corriente que llega a la unión de las tres ramas?
        
+       IT = I1 + I2 + I3 = 250mA + 300mA + 800ma = 1350mA = 1.35A
+       
        11. En el circuito de la figura 6-69, determine la resistencia en R2, R3 y R4.
 
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-69.PNG)
+      
+      *Figura 6-69*
+      
+       IT=I1+I2+I3+I4
+       5.03= 1+2.14+0.470+I4
+       I4= 5.03-3.61
+       I4= 1.42mA
+       R1=47 Ω
+       V=IR
+       V= 1(47)
+       V= 47v el voltaje en paralelo es el mismo en todas sus resistencias 
+       R=V/I
+       R2= 47/2.14  = 22
+       R3= 47/0.470 = 100
+       R4= 47/1.42  = 33.01
+
+       *13. La resistencia total de un circuito en paralelo es de 25 Ω. ¿Cuál es la corriente a través de un resistor
+       de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA ?
        
+       RT=25Ω
+       IT=100mA = 0.1 A
+       R1=220Ω
+       
+       Realizamos reglade 3
+       220    25
+       0.1     A
+      
+       A = 0.1(25)/220
+       A = 1.4 mA
    
    **SECCIÓN 6–4 Resistencia total en paralelo**
    
        15. Encuentre la resistencia total de cada uno de los siguientes grupos de resistores en paralelo:
+       
        (a) 560 Ω y 1000 Ω 
+         	
+       RT= (R1R2)/(R1 + R2)
+       RT= (560x1000)/(560+1000)
+       RT= 560000/1560
+       RT= 359Ω
+       
        (b) 47 Ω y 56 Ω
+       
+       RT= (R1R2)/(R1 + R2)
+       RT= (47*56)/(47+56)
+       RT= 2632/103
+       RT= 25.553Ω
+
        (c) 1.5 kΩ,10 kΩ y 2.2 kΩ 
+       
+       RT= 1/(1/1.5+1/2.2+1/10)
+       RT= 1/((22+15+3.3)/33)
+       RT= 1/(40.3/33)
+       RT= 33/40.3
+       RT= 0.818 kΩ
+       
        (d) 1.0 MΩ,470 kΩ,2.2 MΩ,1.0 kΩ 
+       
+       RT= 1/(1/1000+1/470+1/1.0+1/2700)
+       RT=  1/((2700+1269+470+1269000)/1269000)
+       RT= 1269000/1273439
+       RT= 0.9965 kΩ
        
        17. ¿Cuál es la resistencia total de doce resistores de 6.8 kÆ dispuestos en paralelo?
 
+       RT= R/n
+       RT= 6800/12=
+       RT= 566.66 Ω
+
        19. Encuentre la resistencia total de todo el circuito en paralelo descrito en el problema 18.
+
+       RT1= R/n
+       RT1= 470/5
+       RT1= 94Ω
+       
+       RT2= R/n
+       RT= 100/10
+       RT= 10Ω
+       
+       RT3= R/n
+       RT= 100/2
+       RT= 50Ω
+       
+       RT= 1/(1/94+1/10+1/50)
+       RT= 1/((235+25+47)/2350)
+       RT= 2350/307
+       RT= 7.654 Ω
        
        21. ¿Cuál es la resistencia total entre el punto A y tierra en la figura 6-72 en las siguientes condiciones?
        (a) SW1 y SW2 abiertos 
@@ -466,13 +570,50 @@
        (c) SW1 abierto, SW2 cerrado 
        (d) SW1 y SW2 cerrados
        
-       
+      ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-72.PNG)
+      
+       	a) SW1 y SW2 abiertos
+
+         R_SW1=470kΩ
+         R_SW2=910kΩ
+
+	      b) SW1 cerrado, SW2 abierto
+         R_SW1= (R1R2)/(R1 + R2)
+         R_SW1= (510*470)/(510+470)
+         R_SW1= 239700/980
+         R_SW1= 2445.918 kΩ
+
+         R_SW2=910kΩ
+	      
+         c) SW1 abierto, SW2 cerrado 
+
+         R_SW1=470kΩ
+
+         R_SW2= (R1R2)/(R1 + R2)
+         R_SW2= (470*910)/(470+910)
+         R_SW2= 427700/1380
+         R_SW2= 309.927kΩ
+	      
+         d) SW1 y SW2 cerrados
+         RT= 1/(1/R1 +1/R2 +1/R3)
+         RT= 1/(1/510+1/470+1/910)
+         RT= 1/(2263/436254)
+         RT= 436254/2263
+         RT= 192.776kΩ
    
    **SECCIÓN 6–5 Aplicación de la ley de Ohm**
    
        23. Tres resistores de 33 Ω están conectados en paralelo con una fuente de 110 V. ¿Cuál es la corriente 
        suministrada por la fuente?
        
+       RT= R/n
+       RT= 33/3
+       RT= 11Ω
+       
+       IT= Vs/RT 
+       IT= 110/11
+       IT= 10A
+
        25. Muchos tipos de luces decorativas están conectados en paralelo. Si se conecta un juego de luces a una
        fuente de 110 V y si la resistencia en caliente del filamento de cada foco es de 2.2 kΩ, ¿cuál es la corriente
        a través de cada foco? ¿Por qué es mejor tener estos focos en paralelo y no en serie?

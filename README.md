@@ -443,7 +443,10 @@
        
       ![](https://github.com/jlcastro5/Tarea3/blob/8c4095a2df7ce0877e7ca61129a8a0db1760c4ac/FIGURA6-67.PNG)
       
-       
+      *Figura 6-67*
+      
+       El voltaje es el mismo ya que en un circuito en paralelo las mediciones de voltaje en cada tramo,componente 
+       es el mismo que el voltaje original.
 
        7. ¿Cuál es el voltaje entre los extremos de cada resistor incluido en la figura 6-68 para cada posición del
        interruptor?
